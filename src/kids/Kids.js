@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import video from './videos/KidsAndBabies.mp4'
 import p1 from './images/k-p1.jpg'
 import p2 from './images/k-p2.jpg'
 import p3 from './images/k-p3.jpg'
@@ -10,13 +9,13 @@ class Kids extends Component {
       <div>
         <div className="jumbotron-bg jumbotron jumbotron-fluid">
           <div className="container">
-            <h1 className="display-4">Women's Active Wear</h1>
-            <p className="lead">Made to Move. Like You</p>
+            <h1 className="display-4">Kids and babies</h1>
+            <p className="lead">Simple apparel.</p>
           </div>
         </div>
         <div className="container">
           <div class="embed-responsive embed-responsive-21by9">
-            <iframe class="embed-responsive-item" src={video} allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/BpvBjA5oZQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <br/>
           <h2>Product Preview</h2>

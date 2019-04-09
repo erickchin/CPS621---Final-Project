@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import video from './videos/MUT.mp4'
 import p1 from './images/ut-p1.jpg'
 import p2 from './images/ut-p2.jpg'
 import p3 from './images/ut-p3.jpg'
@@ -15,8 +14,8 @@ class MenUT extends Component {
           </div>
         </div>
         <div className="container">
-          <div class="embed-responsive embed-responsive-21by9">
-            <iframe class="embed-responsive-item" src={video} allowfullscreen></iframe>
+        <div class="embed-responsive embed-responsive-21by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GKx82yn3oVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <br/>
         <h2>Product Preview</h2>

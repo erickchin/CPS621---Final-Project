@@ -23,6 +23,7 @@ class Credits extends Component {
           <li className="list-group-item">React</li>
           <li className="list-group-item">React Router</li>
           <li className="list-group-item">Javascript</li>
+          <li className="list-group-item">Bootstrap</li>
           <li className="list-group-item">Uniqlo.com</li>
         </ul>
       </div></div>);

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import video from './videos/WPants.mp4'
 import p1 from './images/b-p1.jpg'
 import p2 from './images/b-p2.jpg'
 import p3 from './images/b-p3.jpg'
@@ -16,7 +15,7 @@ class WomenBottoms extends Component {
         </div>
         <div className="container">
           <div class="embed-responsive embed-responsive-21by9">
-            <iframe class="embed-responsive-item" src={video} allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/oyTpgCucg7c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <br />
           <h2>Product Preview</h2>

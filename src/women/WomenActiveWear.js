@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import video from './videos/WActiveWear.mp4'
 import p1 from './images/aw-p1.jpg'
 import p2 from './images/aw-p2.jpg'
 import p3 from './images/aw-p3.jpg'
@@ -20,7 +19,7 @@ class WomenActiveWear extends Component {
         </div>
         <div className="container">
           <div class="embed-responsive embed-responsive-21by9">
-            <iframe class="embed-responsive-item" src={video} allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/iWHD5hHGIk4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <br/>
           <h2>Product Preview</h2>
