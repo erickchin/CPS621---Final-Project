@@ -10,7 +10,7 @@ class Navigation extends Component {
         </button>
         <a className="navbar-brand nav-title"><Link to='/'>
           <img src={logo} width="30" height="30" className="d-inline-block align-top nav-img" alt="" />
-          UNIQLO</Link>
+          UNIQLO Toronto</Link>
         </a>
 
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -38,10 +38,10 @@ class Navigation extends Component {
               </div>
             </li>
             <li className="nav-item active nav-options">
-              <a className="nav-link" href="#"><Link to='/kids'>Kids</Link> <span className="sr-only">(current)</span></a>
+              <a className="nav-link"><Link to='/kids'>Kids and Babies</Link> <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item active nav-options">
-              <a className="nav-link" href=""><Link to='/credits'>Credits</Link></a>
+              <a className="nav-link"><Link to='/credits'>Credits</Link></a>
             </li>
           </ul>
         </div>

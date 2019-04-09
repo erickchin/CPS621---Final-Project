@@ -6,6 +6,9 @@ import carousel3 from './img/carousel3.jpg';
 import mens from './img/mens.jpg';
 import womens from './img/womens.jpg';
 import kids from './img/kids.jpg';
+import store1 from './img/store1.JPG';
+import store2 from './img/store2.JPG';
+import store3 from './img/store3.JPG';
 
 class Home extends Component {
   render() {
@@ -25,16 +28,18 @@ class Home extends Component {
               <div className="carousel-item">
                 <img className="d-block w-100 carousel-img" src={carousel3} alt="Header 3" />
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+              <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="sr-only">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+              <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="sr-only">Next</span>
               </a>
             </div>
           </div>
+          <h1>Categories</h1>
+          <br/>
           <div className="card-deck">
             <div className="card">
               <div className="text-center"><img src={mens} className="card-img-top card-img" alt="..." /></div>
@@ -66,6 +71,29 @@ class Home extends Component {
               </div>
             </div>
 
+          </div>
+          <h1>Our Store</h1>
+          <div id="ourStore" className="carousel slide" data-ride="carousel">
+
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img className="d-block w-100 carousel-img-store" src={store1} alt="Header 1" />
+              </div>
+              <div className="carousel-item">
+                <img className="d-block w-100 carousel-img-store" src={store2} alt="Header 2" />
+              </div>
+              <div className="carousel-item">
+                <img className="d-block w-100 carousel-img-store" src={store3} alt="Header 3" />
+              </div>
+              <a className="carousel-control-prev" href="#ourStore" role="button" data-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="sr-only">Previous</span>
+              </a>
+              <a className="carousel-control-next" href="#ourStore" role="button" data-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="sr-only">Next</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>

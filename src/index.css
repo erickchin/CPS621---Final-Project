@@ -14,6 +14,7 @@ body {
 .nav-title a {
   font-weight: bold; 
   color: white;
+  margin-right: 10%;
 }
 
 .nav-options a {
@@ -40,6 +41,19 @@ body {
   max-height: 525px;
 }
 
+.carousel-img-store{
+  max-height: 3024px;
+}
+
 .card-title {
   font-weight: bold
 }
+
+.jumbotron-bg {
+  background-color: rgba(194, 194, 194, 0.4)
+}
+
+.navbar-nav {
+  margin-right: 4%;
+}
+
