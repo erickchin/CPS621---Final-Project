@@ -41,7 +41,7 @@ body {
   max-height: 525px;
 }
 
-.carousel-img-store{
+.carousel-img-store {
   max-height: 3024px;
 }
 
@@ -57,3 +57,22 @@ body {
   margin-right: 4%;
 }
 
+.clothes-obj {
+  max-width: 300px;
+  max-height: 300px;
+  padding: 3%;
+}
+
+@media only screen and (max-width: 700px) {
+  .container h1 {
+    font-size: 22px;
+  }
+
+  .container h1 {
+    font-size: 18px;
+  }
+
+  .container p {
+    font-size: 16px;
+  }
+}

@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
 import video from './videos/WActiveWear.mp4'
+import p1 from './images/aw-p1.jpg'
+import p2 from './images/aw-p2.jpg'
+import p3 from './images/aw-p3.jpg'
+import p4 from './images/aw-p4.jpg'
+import p5 from './images/aw-p5.jpg'
+import p6 from './images/aw-p6.jpg'
+
 
 class WomenActiveWear extends Component {
   render() {
@@ -15,6 +22,36 @@ class WomenActiveWear extends Component {
           <div class="embed-responsive embed-responsive-21by9">
             <iframe class="embed-responsive-item" src={video} allowfullscreen></iframe>
           </div>
+          <br/>
+          <h2>Product Preview</h2>
+          <br/>
+          <div className="text-center">
+            <figure class="figure">
+              <img src={p1} class="rounded clothes-obj" alt="..." />
+              <figcaption class="figure-caption">Airism Seamless V Neck CAD $19.90</figcaption>
+            </figure>
+            <figure class="figure">
+              <img src={p2} class="rounded clothes-obj" alt="..." />
+              <figcaption class="figure-caption">Wireless Bra (Active) CAD $29.90</figcaption>
+            </figure>
+            <figure class="figure">
+              <img src={p3} class="rounded clothes-obj" alt="..." />
+              <figcaption class="figure-caption">Wireless Bra (Active) CAD $29.90</figcaption>
+            </figure>
+            <figure class="figure">
+              <img src={p4} class="rounded clothes-obj" alt="..." />
+              <figcaption class="figure-caption">Dry-Ex Printed Crew CAD $19.90</figcaption>
+            </figure>
+            <figure class="figure">
+              <img src={p5} class="rounded clothes-obj" alt="..." />
+              <figcaption class="figure-caption">Airism Printed Leggings CAD $29.90</figcaption>
+            </figure>
+            <figure class="figure">
+              <img src={p6} class="rounded clothes-obj" alt="..." />
+              <figcaption class="figure-caption">Airism Soft Leggings CAD $29.90</figcaption>
+            </figure>
+          </div>
+          <br/>
         </div>
       </div>);
   }

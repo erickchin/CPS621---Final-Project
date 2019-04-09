@@ -14,8 +14,8 @@ class Credits extends Component {
         
         <h2>Group Members</h2>
         <ul className="list-group">
-          <li className="list-group-item">Erick Chin</li>
-          <li className="list-group-item">Louise Marquez</li>
+          <li className="list-group-item">Erick Chin - 500653798</li>
+          <li className="list-group-item">Louise Marquez - 500683572</li>
         </ul>
         <br/>
         <h2>Resources/Tools</h2>

@@ -29,8 +29,8 @@ class Main extends Component {
         {/* Women */}
         <Route path='/women/tops' component={WomenTops}/>
         <Route path='/women/ut' component={WomenUT}/>
-        <Route path='/women/active-wear' component={WomenBottoms}/>
-        <Route path='/women/pants' component={WomenActiveWear}/>
+        <Route path='/women/active-wear' component={WomenActiveWear}/>
+        <Route path='/women/pants' component={WomenBottoms}/>
         <Route path='/women/inner-wear' component={WomenInnerWear}/>
 
         <Route path='/kids' component={Kids}/>
